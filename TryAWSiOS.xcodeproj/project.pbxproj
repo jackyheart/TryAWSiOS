@@ -14,6 +14,7 @@
 		680AFCE32091DA9C00E36B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680AFCE12091DA9C00E36B0A /* LaunchScreen.storyboard */; };
 		680AFCEB2091DB6400E36B0A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 680AFCEA2091DB6400E36B0A /* awsconfiguration.json */; };
 		680AFCED2091E0D800E36B0A /* Notes1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680AFCEC2091E0D800E36B0A /* Notes1.swift */; };
+		689F01232092CFF100502D92 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F01222092CFF000502D92 /* News.swift */; };
 		8AB5FBC5BE765950D3BF513F /* Pods_TryAWSiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C24CF90CA41ABAF430D3DB6 /* Pods_TryAWSiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		680AFCE42091DA9C00E36B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		680AFCEA2091DB6400E36B0A /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		680AFCEC2091E0D800E36B0A /* Notes1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes1.swift; sourceTree = "<group>"; };
+		689F01222092CFF000502D92 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		7C24CF90CA41ABAF430D3DB6 /* Pods_TryAWSiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryAWSiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF39D54052A1FB8A39E34FB6 /* Pods-TryAWSiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryAWSiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryAWSiOS/Pods-TryAWSiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				680AFCE12091DA9C00E36B0A /* LaunchScreen.storyboard */,
 				680AFCEA2091DB6400E36B0A /* awsconfiguration.json */,
 				680AFCEC2091E0D800E36B0A /* Notes1.swift */,
+				689F01222092CFF000502D92 /* News.swift */,
 				680AFCE42091DA9C00E36B0A /* Info.plist */,
 			);
 			path = TryAWSiOS;
@@ -188,16 +191,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TryAWSiOS/Pods-TryAWSiOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLex/AWSLex.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLex.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -231,6 +240,7 @@
 			files = (
 				680AFCED2091E0D800E36B0A /* Notes1.swift in Sources */,
 				680AFCDB2091DA9A00E36B0A /* ViewController.swift in Sources */,
+				689F01232092CFF100502D92 /* News.swift in Sources */,
 				680AFCD92091DA9A00E36B0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

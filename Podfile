@@ -8,4 +8,7 @@ target 'TryAWSiOS' do
   # Pods for TryAWSiOS
   pod 'AWSMobileClient', '~> 2.6.13'
   pod 'AWSDynamoDB', '~> 2.6.13'
+  pod 'AWSS3', '~> 2.6.13'   # For file transfers
+  pod 'AWSCognito', '~> 2.6.13'   #For data sync
+  pod 'AWSLex', '~> 2.6.13'
 end
